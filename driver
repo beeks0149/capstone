@@ -1,0 +1,16 @@
+public class driver extends JApplet {
+
+	public static void main(String[] args) {
+		
+		MovieList movies = new MovieList(2);
+		movies.addMovie("it",90);
+		movies.addMovie("jaws", 89);
+		movies.addMovie("cool runnings", 70);
+		TheaterList theaters = new TheaterList(1);
+		theaters.addTheater("bville", "amc", 8);
+		theaters.addTheater("edina", "southdale", 7);
+		theaters.addTheater("ep", "AMC", 10);
+		for(int i = 0;i<movies.getNumberOfMovies();i++){
+			System.out.println(theaters.gettheater(i).getCity());
+		}
+	}
