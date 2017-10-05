@@ -1,4 +1,4 @@
-public class driver extends JApplet {
+public class driver {
 
 	public static void main(String[] args) {
 		
@@ -14,3 +14,4 @@ public class driver extends JApplet {
 			System.out.println(theaters.gettheater(i).getCity());
 		}
 	}
+}
